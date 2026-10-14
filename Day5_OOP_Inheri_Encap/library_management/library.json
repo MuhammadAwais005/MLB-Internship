@@ -1,0 +1,24 @@
+[
+    {
+        "type": "book",
+        "book_id": "B001",
+        "title": "Python Basics",
+        "author": "John Smith",
+        "is_borrowed": false
+    },
+    {
+        "type": "ebook",
+        "book_id": "B002",
+        "title": "Computer Vision Introduction",
+        "author": "Sara Ahmed",
+        "is_borrowed": true,
+        "file_size_mb": 12.5
+    },
+    {
+        "type": "book",
+        "book_id": "B003",
+        "title": "Think Grow and Rich",
+        "author": "Nipolian Hills",
+        "is_borrowed": false
+    }
+]
