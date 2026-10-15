@@ -16,6 +16,6 @@ class Student:
 
 
 if __name__ == "__main__":
-    student = Student("S001", "Ali", "Computer Science")
+    student = Student("S001", "Awais", "Computer Science")
     student.introduce()
     student.display_details()

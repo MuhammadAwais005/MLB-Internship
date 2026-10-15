@@ -24,7 +24,7 @@ class Car:
 
 
 if __name__ == "__main__":
-    car = Car("Toyota", "Corolla", 2022, "White")
+    car = Car("BMW", "M7", 2026, "Black")
     car.display_details()
     car.start()
     car.stop()

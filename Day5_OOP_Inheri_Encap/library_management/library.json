@@ -16,9 +16,9 @@
     },
     {
         "type": "book",
-        "book_id": "B003",
-        "title": "Think Grow and Rich",
-        "author": "Nipolian Hills",
+        "book_id": "B005",
+        "title": "Think and Grow Rich",
+        "author": "Niplolian Hills",
         "is_borrowed": false
     }
 ]
