@@ -131,7 +131,7 @@ param_grid = {
 grid_search = GridSearchCV(
     estimator=baseline_model,
     param_grid=param_grid,
-    cv=5, #cross-validation folds 
+    cv=5, #cross-validation folds  
     scoring="f1",
     n_jobs=-1 
 )
