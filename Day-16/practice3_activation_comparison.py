@@ -8,7 +8,7 @@ def build_model(activation_name):
         tf.keras.layers.Input(shape=(4,), name="input_layer"),
         tf.keras.layers.Dense(
             8,
-            activation=activation_name,
+            activation=activation_name, 
             name="hidden_layer"
         ),
         tf.keras.layers.Dense(
