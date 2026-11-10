@@ -1,0 +1,28 @@
+{
+  "opencv": "4.14.0",
+  "numpy": "2.5.4",
+  "input": "sample_color.png",
+  "shape": [
+    500,
+    800,
+    3
+  ],
+  "gaussian_kernel": 5,
+  "canny_thresholds": [
+    50,
+    150
+  ],
+  "morphology_kernel": 5,
+  "otsu_threshold": null,
+  "white_pixels_before": 71543,
+  "white_pixels_after": {
+    "erosion": 67408,
+    "dilation": 75204,
+    "opening": 71516,
+    "closing": 71784,
+    "gradient": 7796,
+    "top_hat": 27,
+    "black_hat": 241
+  },
+  "note": "White pixel counts describe the output, not accuracy or quality."
+}

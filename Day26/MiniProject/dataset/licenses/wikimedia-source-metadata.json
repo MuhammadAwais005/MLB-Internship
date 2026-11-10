@@ -1,0 +1,309 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "redirects": [
+      {
+        "from": "File:United States Bill of Rights.jpg",
+        "to": "File:Bill of Rights - DPLA - a65f6d0b6210c18d17c596908ebcf270 (page 1).jpg"
+      },
+      {
+        "from": "File:Constitution of the United States, page 1.jpg",
+        "to": "File:Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1).jpg"
+      }
+    ],
+    "pages": {
+      "2842619": {
+        "pageid": 2842619,
+        "ns": 6,
+        "title": "File:Roosevelt-einstein-letter.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Roosevelt-einstein-letter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1000,
+            "thumbheight": 1390,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Roosevelt-einstein-letter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1390
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Roosevelt-einstein-letter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Roosevelt-einstein-letter.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2842619",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-10-01 19:40:22",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Roosevelt-einstein-letter",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Manhattan Project|Executive Office of the President files|Documents associated with World War II|Albert Einstein in 1939|Franklin D. Roosevelt correspondence, 1939",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Roosevelt's answer to <a href=\"//commons.wikimedia.org/wiki/File:Einstein-Roosevelt-letter.png\" title=\"File:Einstein-Roosevelt-letter.png\">Einstein's letter</a>",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "1939-10-19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "Scanned from p. 143 of the book \"<i>Albert Einstein \u2013 Derri\u00e8re l'image</i>\", by Ze'ev Rosenkranz. Editions Neue Z\u00fcrcher Zeitung, 2005. <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/ISBN\" class=\"extiw\" title=\"en:ISBN\"><span lang=\"en\" dir=\"ltr\">ISBN</span></a></span>\u00a0<a href=\"//commons.wikimedia.org/wiki/Special:BookSources/3-03823-182-7\" title=\"Special:BookSources/3-03823-182-7\">3-03823-182-7</a>.",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "Franklin Delano Roosevelt",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "This file is a work of an employee of the <a href=\"https://en.wikipedia.org/wiki/Executive_Office_of_the_President_of_the_United_States\" class=\"extiw\" title=\"w:Executive Office of the President of the United States\">Executive Office of the President of the United States</a>, taken or made as part of that person's official duties. As a <a href=\"https://en.wikipedia.org/wiki/Work_of_the_United_States_Government\" class=\"extiw\" title=\"w:Work of the United States Government\">work</a> of the <a href=\"https://en.wikipedia.org/wiki/Federal_Government_of_the_United_States\" class=\"extiw\" title=\"w:Federal Government of the United States\">U.S. federal government</a>, it is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b>.",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "661347": {
+        "pageid": 661347,
+        "ns": 6,
+        "title": "File:Bill of Rights - DPLA - a65f6d0b6210c18d17c596908ebcf270 (page 1).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg/1280px-Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1063,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg/3840px-Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg/1280px-Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1063,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg/3840px-Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_(page_1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=661347",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-05 21:21:14",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Bill of Rights - DPLA - a65f6d0b6210c18d17c596908ebcf270 (page 1)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|Images from the National Archives and Records Administration|United States Bill of Rights|Files with derivative versions|CC-PD-Mark|Digital Public Library of America files missing required SDC statements|Digital Public Library of America files missing creator|DPLA uploads in progress",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "National Archives and Records Administration. Office of the Federal Register. 4/1/1985",
+                "source": "commons-desc-page"
+              },
+              "ImageDescription": {
+                "value": "The <a href=\"https://en.wikipedia.org/wiki/United_States_Bill_of_Rights\" class=\"extiw\" title=\"en:United States Bill of Rights\">Bill of Rights</a>, twelve articles of the Amendment to the <a href=\"https://en.wikipedia.org/wiki/United_States_Constitution\" class=\"extiw\" title=\"en:United States Constitution\">United States Constitution</a> proposed in 1789, ten of which, Articles three through twelve, became part of the <a href=\"https://en.wikipedia.org/wiki/United_States_Constitution\" class=\"extiw\" title=\"en:United States Constitution\">United States Constitution</a> in 1794. Note that the First Amendment is actually \"Article the third\" on the document, Second Amendment is \"Article the fourth\", and so on. \"Article the second\" is now the 27th Amendment. \"Article the first\" has not been ratified.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "25 September 1789, 25 September 1789",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<a href=\"#Licensing_information\">See below</a>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      },
+      "15795309": {
+        "pageid": 15795309,
+        "ns": 6,
+        "title": "File:Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/1280px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1000,
+            "thumbheight": 1210,
+            "responsiveUrls": {
+              "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/3840px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/1280px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1000,
+              "height": 1210,
+              "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/3840px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_(page_1).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=15795309",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-11-03 06:57:13",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "PD US Government|United States Constitution|Files with no machine-readable source|Media contributed by the National Archives and Records Administration|Featured pictures on Wikipedia, English|Images with extracted images|High-quality images of the Charters of Freedom from the National Archives and Records Administration|CC-PD-Mark|Digital Public Library of America files missing required SDC statements|Featured pictures in the public domain|DPLA uploads in progress",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Artist": {
+                "value": "Constitutional Convention",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "17 September 1787",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+file,status,area_ratio,contour_rank,reason
+blur_03.png,boundary_candidate,0.5078,1,Largest plausible four-corner contour
+blur_08.png,boundary_candidate,0.2303,1,Largest plausible four-corner contour
+doc-1.jpg,boundary_candidate,0.6801,1,Largest plausible four-corner contour
+doc-2.png,boundary_candidate,0.6782,1,Largest plausible four-corner contour
+doc-3.jpg,boundary_candidate,0.5082,1,Largest plausible four-corner contour
+doc-4.jpg,boundary_candidate,0.5932,1,Largest plausible four-corner contour
+doc-5.jpg,no_boundary,,,"No sufficiently large, closed four-corner boundary"
+doc-6.jpg,boundary_candidate,0.6215,1,Largest plausible four-corner contour
+doc-7.jpg,no_boundary,,,"No sufficiently large, closed four-corner boundary"
+doc-8.jpg,no_boundary,,,"No sufficiently large, closed four-corner boundary"
+scan_01.png,boundary_candidate,0.8478,1,Largest plausible four-corner contour
+scan_02.png,boundary_candidate,0.8383,1,Largest plausible four-corner contour
+scan_03.png,boundary_candidate,0.7548,1,Largest plausible four-corner contour
+shadow_01.png,boundary_candidate,0.6801,1,Largest plausible four-corner contour
+shadow_02.png,boundary_candidate,0.6729,1,Largest plausible four-corner contour

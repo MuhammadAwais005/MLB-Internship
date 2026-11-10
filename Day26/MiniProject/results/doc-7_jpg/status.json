@@ -1,0 +1,40 @@
+{
+  "status": "no_boundary",
+  "reason": "No sufficiently large, closed four-corner boundary",
+  "selection": "quadrilateral",
+  "contour_count": 115,
+  "contour_rank": null,
+  "area_ratio": null,
+  "boundary_points": null,
+  "original_size": [
+    900,
+    1600
+  ],
+  "processing_size": [
+    562,
+    1000
+  ],
+  "canny_thresholds": [
+    40,
+    120
+  ],
+  "morphology_kernel": 5,
+  "attempts": [
+    {
+      "thresholds": [
+        40,
+        120
+      ],
+      "candidate_area": 0
+    },
+    {
+      "thresholds": [
+        30.0,
+        90.0
+      ],
+      "candidate_area": 0
+    }
+  ],
+  "file": "doc-7.jpg",
+  "elapsed_ms": 81.2
+}

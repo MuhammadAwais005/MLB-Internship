@@ -1,0 +1,57 @@
+{
+  "status": "boundary_candidate",
+  "reason": "Largest plausible four-corner contour",
+  "selection": "quadrilateral",
+  "contour_count": 327,
+  "contour_rank": 1,
+  "area_ratio": 0.6215,
+  "boundary_points": [
+    [
+      778,
+      310
+    ],
+    [
+      51,
+      331
+    ],
+    [
+      22,
+      1472
+    ],
+    [
+      866,
+      1446
+    ]
+  ],
+  "original_size": [
+    900,
+    1600
+  ],
+  "processing_size": [
+    562,
+    1000
+  ],
+  "canny_thresholds": [
+    30.0,
+    90.0
+  ],
+  "morphology_kernel": 5,
+  "attempts": [
+    {
+      "thresholds": [
+        40,
+        120
+      ],
+      "candidate_area": 157060.5
+    },
+    {
+      "thresholds": [
+        30.0,
+        90.0
+      ],
+      "candidate_area": 349259.0
+    }
+  ],
+  "file": "doc-6.jpg",
+  "elapsed_ms": 121.8
+}

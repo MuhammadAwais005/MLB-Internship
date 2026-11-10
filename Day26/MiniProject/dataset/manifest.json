@@ -1,0 +1,174 @@
+{
+  "name": "Document boundary mini-project: 15-image practice set",
+  "source_repository": "https://github.com/danielgatis/docscan",
+  "credit": "Photos: Daniel Gatis, docscan (MIT). Archival scans: US National Archives / Franklin D. Roosevelt, via Wikimedia Commons (public domain labels retained).",
+  "license_file": "licenses/docscan-MIT.txt",
+  "composition": {
+    "original_photos": 8,
+    "archival_scans": 3,
+    "added_shadows": 2,
+    "added_blur": 2
+  },
+  "limitations": "Four variants share source photos. The archival scans/digital reproductions have added margins. This is not 15 independent scenes, a training set, or a benchmark.",
+  "images": [
+    {
+      "file": "doc-1.jpg",
+      "condition": "Camera photo: tall brochure, perspective and uneven lighting",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-1.jpg",
+      "modification": "Unmodified source image",
+      "width": 1152,
+      "height": 2048,
+      "sha256": "0adfa5fae3a710d73db6cdcea45095ba2cea4cc79b5801b697e2c9acb96ef276"
+    },
+    {
+      "file": "doc-2.png",
+      "condition": "Camera photo: letter on wood, mild perspective",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-2.png",
+      "modification": "Unmodified source image",
+      "width": 450,
+      "height": 600,
+      "sha256": "5fa0a9c7dc5a3ca16df52dec47f905b1d8405a7e8648dc2cbc3951fe4f276022"
+    },
+    {
+      "file": "doc-3.jpg",
+      "condition": "Camera photo: tilted landscape paper, dark surroundings",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-3.jpg",
+      "modification": "Unmodified source image",
+      "width": 1200,
+      "height": 675,
+      "sha256": "165a381c9cf77d59eb462edea564939b09ebf6fa95d3795721314219af8c16dc"
+    },
+    {
+      "file": "doc-4.jpg",
+      "condition": "Camera photo: curved identity-document spread",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-4.jpg",
+      "modification": "Unmodified source image",
+      "width": 900,
+      "height": 1600,
+      "sha256": "6025f8a1389865b785299a56fe9a03f3ac28d49f506f818950b4c190ef70dd3f"
+    },
+    {
+      "file": "doc-5.jpg",
+      "condition": "Camera photo: identity-document spread, perspective",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-5.jpg",
+      "modification": "Unmodified source image",
+      "width": 900,
+      "height": 1600,
+      "sha256": "97cd897aaf98b792fa5ab77616c5cc216992682e3e40291c6c1545a1a01656cc"
+    },
+    {
+      "file": "doc-6.jpg",
+      "condition": "Camera photo: identity-document spread, uneven lighting",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-6.jpg",
+      "modification": "Unmodified source image",
+      "width": 900,
+      "height": 1600,
+      "sha256": "d59b6272f2fdab5d40959a778cc4f174fb44a93e8340a97eb7d0b128d2db825a"
+    },
+    {
+      "file": "doc-7.jpg",
+      "condition": "Camera photo: tilted identity document on a light background",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-7.jpg",
+      "modification": "Unmodified source image",
+      "width": 900,
+      "height": 1600,
+      "sha256": "ddecfe3d47f68f689609600b40d397db2f03a7d4b2bfae688b05774ad86692d8"
+    },
+    {
+      "file": "doc-8.jpg",
+      "condition": "Camera photo: strongly tilted identity document on wood",
+      "kind": "source_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-8.jpg",
+      "modification": "Unmodified source image",
+      "width": 900,
+      "height": 1600,
+      "sha256": "29bbf614e90b392dcab9c781eea814635ffc11ca40bd76114be8cf4382d901d6"
+    },
+    {
+      "file": "scan_01.png",
+      "condition": "Straight archival scan/digital reproduction with visible margins",
+      "kind": "archival_scan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_(page_1).jpg",
+      "modification": "Public-domain archival scan/reproduction; resized to <=1100px; dark 45px border added",
+      "width": 1125,
+      "height": 1190,
+      "sha256": "eb6f5d5122f95a9ac03befd0d30595c1b7315a633746632b638f9888c60970e9",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg/1280px-Bill_of_Rights_-_DPLA_-_a65f6d0b6210c18d17c596908ebcf270_%28page_1%29.jpg",
+      "license": "Public domain",
+      "title": "File:Bill of Rights - DPLA - a65f6d0b6210c18d17c596908ebcf270 (page 1).jpg"
+    },
+    {
+      "file": "scan_02.png",
+      "condition": "Straight archival scan/digital reproduction with visible margins",
+      "kind": "archival_scan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_(page_1).jpg",
+      "modification": "Public-domain archival scan/reproduction; resized to <=1100px; dark 45px border added",
+      "width": 999,
+      "height": 1190,
+      "sha256": "c40653e75dfb724a515f76f14b49590a48b1f5d6c60e8097872ffffb8451dc71",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg/1280px-Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_%28page_1%29.jpg",
+      "license": "Public domain",
+      "title": "File:Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1).jpg"
+    },
+    {
+      "file": "scan_03.png",
+      "condition": "Straight archival scan/digital reproduction with visible margins",
+      "kind": "archival_scan",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roosevelt-einstein-letter.png",
+      "modification": "Public-domain archival scan/reproduction; resized to <=1100px; dark 45px border added",
+      "width": 608,
+      "height": 810,
+      "sha256": "90d33340ca86b1cfe781931b0f321bba89b609159acd7c04b147d790aa146353",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Roosevelt-einstein-letter.png",
+      "license": "Public domain",
+      "title": "File:Roosevelt-einstein-letter.png"
+    },
+    {
+      "file": "shadow_01.png",
+      "condition": "Added horizontal uneven-lighting field",
+      "kind": "augmented_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-1.jpg",
+      "modification": "Brightness multiplied by a horizontal field ranging from 0.38 to 1.0",
+      "width": 1152,
+      "height": 2048,
+      "sha256": "d3455e2e62f00818c1bb284ab4c974d95e75fef4e6a135557c421d84fc6b5d31"
+    },
+    {
+      "file": "shadow_02.png",
+      "condition": "Added diagonal uneven-lighting field",
+      "kind": "augmented_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-2.png",
+      "modification": "Brightness multiplied by a diagonal field ranging from 0.38 to 1.0",
+      "width": 450,
+      "height": 600,
+      "sha256": "b59619a331edd4dab11214d10309d83812fe6a3bee5262f8892edf021ad8c8ae"
+    },
+    {
+      "file": "blur_03.png",
+      "condition": "Slight Gaussian blur on camera photo",
+      "kind": "augmented_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-3.jpg",
+      "modification": "7x7 Gaussian blur, sigma=1.4",
+      "width": 1200,
+      "height": 675,
+      "sha256": "0c59341b1201d592ae49846840877ad9430d5d53b867c4e3e35bb5139e48ab80"
+    },
+    {
+      "file": "blur_08.png",
+      "condition": "Slight Gaussian blur on camera photo",
+      "kind": "augmented_photo",
+      "source_url": "https://raw.githubusercontent.com/danielgatis/docscan/master/examples/doc-8.jpg",
+      "modification": "7x7 Gaussian blur, sigma=1.4",
+      "width": 900,
+      "height": 1600,
+      "sha256": "6140137c225a7697607920b80bcf82db37a383f52db3ddd04d3d2ee8b604388a"
+    }
+  ]
+}
