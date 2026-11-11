@@ -4,3 +4,12 @@ __pycache__/
 
 # Generated video outputs
 Day-27/**/output/*.mp4
+<<<<<<< HEAD
+=======
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated video outputs
+Day-27/**/output/*.mp4
+>>>>>>> 8bb52f8 (Add Day-27 internship tasks)
