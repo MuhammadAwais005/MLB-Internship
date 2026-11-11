@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated video outputs
+Day-27/**/output/*.mp4
