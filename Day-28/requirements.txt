@@ -1,0 +1,6 @@
+# Streamlit app (this is what Streamlit Community Cloud installs)
+streamlit>=1.50
+opencv-python-headless>=4.9
+numpy>=1.26
+pillow>=10.0
+pandas>=2.0

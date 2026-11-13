@@ -1,0 +1,3 @@
+# Everything for the Streamlit app, plus Gradio for gradio_app.py
+-r requirements.txt
+gradio>=6.0
