@@ -1,0 +1,37 @@
+IMAGE: 08_handwritten_note.jpg
+============================================================
+
+--- ORIGINAL ---
+Meeting with Sir Usman
+Tuesdav at 11am
+Bring the project report
+and the dataset on UCB
+Call Bilal about the API key
+
+--- GRAYSCALE ---
+Meeting with Sir Usman
+Tuesday at 11am
+Bring the project report
+and the dataset on USB
+Call Bilal about the API keyj
+
+--- ENHANCED ---
+Meeting with Sir Usman
+Tuesday at 1am
+Bring the project report
+and the dataset on USB
+Call Bilal about the API key
+
+--- BINARIZED ---
+Meeting with_Sir Usman
+Tuesday at I4b
+Bring the_project_report
+andthe_dataset_on_UCB
+CalLBilaL_about_the APT_ key
+
+--- CORRECT TEXT (ground truth) ---
+Meeting with Sir Usman
+Tuesday at 11 am
+Bring the project report
+and the dataset on USB
+Call Bilal about the API key

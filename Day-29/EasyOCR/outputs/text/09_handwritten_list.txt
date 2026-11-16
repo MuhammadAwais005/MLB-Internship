@@ -1,0 +1,42 @@
+IMAGE: 09_handwritten_list.jpg
+============================================================
+
+--- ORIGINAL ---
+Shopping list
+Tomatoes 1kg
+Onions 2 kg
+Yogurt
+Green chillies
+Cooking oil 3 litre
+
+--- GRAYSCALE ---
+Shopping list
+Tomatoes 1kg
+Onions 2 kg
+Yogurt
+Green chillies
+Cooking oil 3 litre
+
+--- ENHANCED ---
+Shopping list
+Tomatoes 1kg
+Onions 2 kg
+Yogurt
+Green chillies
+Cooking oil 3 litre
+
+--- BINARIZED ---
+Shoppivg list
+Tomatoes 1kg
+Onions 2 kg
+Yogurt
+Green chillies
+Cooking oil 3 litre
+
+--- CORRECT TEXT (ground truth) ---
+Shopping list
+Tomatoes 1 kg
+Onions 2 kg
+Yogurt
+Green chillies
+Cooking oil 3 litre

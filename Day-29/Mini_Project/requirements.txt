@@ -1,0 +1,23 @@
+# Simple OCR Document Reader - dependencies
+# Used by both the desktop app (main.py) and the web app (streamlit_app.py),
+# and by Streamlit Community Cloud when the app is deployed.
+#
+# Install locally with:  py -3.11 -m pip install -r requirements.txt
+#
+# Tested on Python 3.11.9 with:
+#   easyocr 1.7.2, torch 2.15.0, torchvision 0.29.2, opencv-python-headless 5.0.0.93,
+#   numpy 2.4.6, pillow 13.0.0, streamlit 1.67.0
+# Tkinter (the desktop window) is part of Python on Windows - nothing to install.
+
+# CPU-only PyTorch. The default Linux build includes several GB of GPU
+# libraries that don't fit on Streamlit Cloud. On a PC that already has
+# torch installed, this line changes nothing.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+easyocr>=1.7.2,<1.8
+torch>=2.3
+torchvision>=0.18
+opencv-python-headless>=4.10
+numpy>=1.26,<3
+pillow>=10.1
+streamlit>=1.46

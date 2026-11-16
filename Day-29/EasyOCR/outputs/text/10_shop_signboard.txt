@@ -1,0 +1,27 @@
+IMAGE: 10_shop_signboard.jpg
+============================================================
+
+--- ORIGINAL ---
+KHAN MOBILE CENTER
+Repairing Accessories Easypaisa
+0300-1234567
+
+--- GRAYSCALE ---
+KHAN MOBILE CENTER
+Repairing Accessories Easypaisa
+0300-1234567
+
+--- ENHANCED ---
+KHAN MOBILE CENTER
+Repairing Accessories Easypaisa
+0300-1234567
+
+--- BINARIZED ---
+KHAN MOBILE CENTER
+Repairing Accessories Easypaisa
+0300-1234567
+
+--- CORRECT TEXT (ground truth) ---
+KHAN MOBILE CENTER
+Repairing - Accessories - Easypaisa
+0300-1234567

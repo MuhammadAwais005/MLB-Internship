@@ -1,0 +1,62 @@
+IMAGE: 07_book_page.jpg
+============================================================
+
+--- ORIGINAL ---
+CHAPTER THREE
+The old library stood at the end of the street;
+its windows covered in a thin layer of dust:
+Nobody remembered when it had last been opened,
+yet every evening a single lamp burned inside:
+Ahmed had walked past it a thousand times, but
+tonight the heavy wooden door was slightly open:
+He hesitated for a moment, then stepped inside,
+and the smell of ancient paper filled the air:
+47
+
+--- GRAYSCALE ---
+CHAPTER THREE
+The old library stood at the end of the street;
+its windows covered in a thin layer of dust:
+Nobody remembered when it had last been opened,
+yet every evening a single lamp burned inside:
+Ahmed had walked past it a thousand times, but
+tonight the heavy wooden door was slightly open:
+He hesitated for a moment, then stepped inside,
+and the smell of ancient paper filled the air:
+47
+
+--- ENHANCED ---
+CHAPTER THREE
+The old library stood at the end of the street;
+its windows covered in a thin layer of dust
+Nobody remembered when it had last been opened,
+yet every evening a single lamp burned inside:
+Ahmed had walked past it a thousand times, but
+tonight the heavy wooden door was slightly open.
+He hesitated for a moment, then stepped inside,
+and the smell of ancient paper filled the air:
+47
+
+--- BINARIZED ---
+CHAPTER THREE
+The old library stood at the end of the street
+its windows covered in a thin layer of dust:
+Nobody remembered when it had last been opened,
+yet every evening a single lamp bured inside:
+Ahmed had walked past it a thousand times, but
+tonight the heavy wooden door was slightly open.
+Hehesitated for a moment, then stepped inside,
+and the smell of ancient paper filled the air:
+47
+
+--- CORRECT TEXT (ground truth) ---
+CHAPTER THREE
+The old library stood at the end of the street,
+its windows covered in a thin layer of dust.
+Nobody remembered when it had last been opened,
+yet every evening a single lamp burned inside.
+Ahmed had walked past it a thousand times, but
+tonight the heavy wooden door was slightly open.
+He hesitated for a moment, then stepped inside,
+and the smell of ancient paper filled the air.
+47

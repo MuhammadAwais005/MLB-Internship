@@ -1,0 +1,42 @@
+TRITAO
+GARBER
+GTTE Qu
+ANCTENT
+MARKET SOlRE
+Watn @
+GHOP
+Woran
+
+Totiod) Marco Feri
+Yono
+MUSUM
+
+Total-Text (b) Total-Text (c) CTWISOO CTWISOO
+Figure Visual experimental results. The blue contours are boundary proposals and the green contours are final detection boundaries_
+Table 6 Experimental results on CTW-1500. Table Experimental results on MSRA-TDSOO.
+Methods Ext FPS Methods FPS
+TextSnake [18] Syn 853 67.9 75.6 SegLink [26] 70.0
+CSE [17] MLT 76.1 78.7 77.4 38 PixelLink 73.2 83.0 71,8
+LOMO[40] Syn 85.7 80.8 TextSnake [18] 73.9 83 . 78.3 3
+ATRR[35 _ Sy- 80. 80.[ 80.1 TextFicld [37] 813
+SegLink++ [28] Syn 79.8 82.8 813 MSR[38] 87.4
+TextField [37] Syn 79.8 83.0 FTSN [3] 77.1 87.6 82.0
+MSR[38] Syn 79. 84.1 8 LSE[30] 81.7 84.2 82.9
+PSENet-Is [33] MLT 79 . 84.8 CRAFT [2] 78.2 88 .
+DB [12] Syn 80.2 84 22.0 MCN [16] 88 829
+CRAFT [2] Syn 81.1 83.5 ATRR[35] 82.1 85.2 83.6
+TextDragon [S] MLT+ 82.8 84.5 83.6 PAN [34] 83.8 84.4 84.1 30.2
+PAN [345 Syn 81.2 83.7 39.8 DB[L2] 79.2 915 84.9 32.0
+ContourNet [36] 84.1 83 . 83.9 4.5 DRRG [41] 82.30 88.05 85.08
+DRRG [41_ MLT 83.02 85.93 84.45 Ours SynText) 80.68 85.40 82.97 12.68
+TextPerception[23 Syn 81.9 87.5 84.6 Ours (MLT- 17) 84.54 86.62 85.57 12.31
+Ours 8057 87.66 83.97 12.08
+Ours Syn 81.4587.81 84.51 12.15
+Ours MLT 83.60 86.45 85.00 12.21
+5. Conclusion
+CTWISUU. testing: thc  threshold th< sct to 0.8_
+Representative visible results arc shown in Fig: 8 (c) and this paper; we   propose novcl adaptive bound-
+(d), which indicate our  method precisely detects bound- ary   proposal  network for arbitrary shape text  detection;
+aries of long curved text with line- level: The quantitativc which adopt = boundary proposal model to generate coarse
+results arc listed in Tab. Compared with the previous boundary proposals_ and then adopt an adaptive boundary
+sate-of-the-art methods [12, 34, 36] our approach achieves deformation model combined with GCN and RNN to per-

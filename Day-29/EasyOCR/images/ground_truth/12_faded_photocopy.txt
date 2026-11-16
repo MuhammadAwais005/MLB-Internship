@@ -1,0 +1,7 @@
+UNIVERSITY OF THE PUNJAB
+Department of Computer Science
+Final Term Examination Schedule
+Data Structures - 10 January
+Operating Systems - 13 January
+Artificial Intelligence - 16 January
+Computer Networks - 19 January

@@ -1,0 +1,42 @@
+IMAGE: 05_signboard_street.jpg
+============================================================
+
+--- ORIGINAL ---
+Mairie du r|
+[Palais du LOUVRE
+LES ARTS DECORATIFS
+[Musee du LOUVRE
+Theatre
+du PALA/S-Royalt
+
+--- GRAYSCALE ---
+Mairie du F[
+[Palais du LOUVRE
+LES ARTS DECORATIFS
+[Musee du LOUVRE
+Theatre
+du PALA/S-Royalt
+
+--- ENHANCED ---
+Mairie du
+Palais du LOUVRE
+LES ARTS DECORATIFS
+[Musee du LOUVRE
+Theatre
+du PALals-RovalL
+
+--- BINARIZED ---
+Mairie du
+Palais du LOUVRE
+1
+LES ARTS DECORATIFS
+Musee du LOUVRE
+Theatre
+du PALAIS-Royall
+
+--- CORRECT TEXT (ground truth) ---
+Mairie du Ier
+Palais du LOUVRE
+LES ARTS DECORATIFS
+Musee du LOUVRE
+Theatre du PALAIS-ROYAL

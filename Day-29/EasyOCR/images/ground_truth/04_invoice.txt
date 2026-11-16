@@ -1,0 +1,12 @@
+INVOICE
+Invoice No: INV-2026-0418
+Date: 05 November 2026
+Bill To: Pixel Craft Studio, Karachi
+Description Qty Rate Amount
+Website Design 1 45000 45000
+Logo Design 2 8000 16000
+Hosting (1 year) 1 12000 12000
+SEO Setup 1 15000 15000
+Subtotal: 88000
+Tax (16%): 14080
+Total Due: PKR 102080

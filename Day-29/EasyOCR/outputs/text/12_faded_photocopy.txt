@@ -1,0 +1,47 @@
+IMAGE: 12_faded_photocopy.jpg
+============================================================
+
+--- ORIGINAL ---
+UNIVERSITY OF THE PUNJAB
+Department of Computer Science
+Final Term Examination Schedule
+Data Structures 10 January
+Operating Systems 13 January
+Artificial Intelligence 16 January
+Computer Networks 19 January
+
+--- GRAYSCALE ---
+UNIVERSITY OF THE PUNJAB
+Department of Computer Science
+Final Term Examination Schedule
+Data Structures 10 January
+Operating Systems 13 January
+Artificial Intelligence 16 January
+Computer Networks 19 January
+
+--- ENHANCED ---
+UNIVERSITY OF THE PUNJAB
+Department of Computer Science
+Final Term Examination Schedule
+Data Structures 10 January
+Operating Systems 13 January
+Artificial Intelligence 16 January
+Computer Networks 19 January
+
+--- BINARIZED ---
+UNIVERSITY OF THE PUNJAB
+Departmert of Computer Science
+Final Term Examination Schedule
+Data Structures 10 January
+Operating Systems - 13 January
+Artificial Intelligence 16 January
+Computer Networks 19 January
+
+--- CORRECT TEXT (ground truth) ---
+UNIVERSITY OF THE PUNJAB
+Department of Computer Science
+Final Term Examination Schedule
+Data Structures - 10 January
+Operating Systems - 13 January
+Artificial Intelligence - 16 January
+Computer Networks - 19 January

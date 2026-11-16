@@ -1,0 +1,101 @@
+IMAGE: 03_receipt.jpg
+============================================================
+
+--- ORIGINAL ---
+AL-FATAH SUPER STORE
+Mall Road, Lahore
+Tel; 042-3571-8890
+X2 560 00
+Milk 1L
+Bread Large Xi 220 00
+X1 390 00
+Eggs Dozen
+Basmati Rice Skg X1 1850 00
+Tea 950g X1 1499 00
+4519 00
+SUBTOTAL
+813 42
+GST 18%
+5332 42
+TOTAL
+6000 00
+CASH
+667 58
+CHANGE
+Thank you for shopping!
+
+--- GRAYSCALE ---
+AL-FATAH SUPER STORE
+Mall Road, Lahore
+Tel: 042-3571-8890
+Milk 1L X2 560 00
+Bread Large Xi 220 00
+X1 390 00
+Eggs Dozen
+Basmati Rice Skg X1 1850 00
+Tea 950g X1 1499 00
+4519 00
+SUBTOTAL
+813 42
+GST 18%
+5332 42
+TOTAL
+6000 00
+CASH
+667 58
+CHANGE
+Thank you for  shopping!
+
+--- ENHANCED ---
+AL" FATAH SUPER STORE
+Mall Road, Lahore
+Tel: 042-3571-8890
+Milk 1L X2 560 00
+Bread Large X1 220 00
+X1 390 00
+Eggs Dozen Basmati Rice Skg X1 1850 00
+Tea 950g X1 1499 00
+4519 00
+SUBTOTAL
+813 42
+GST  18%
+5332 42
+TOTAL
+6000 00
+CASH 667 58
+CHANGE
+Thank you for  shopping
+
+--- BINARIZED ---
+AL-FATAH SUPER STORE
+Mall Road, Lahore
+Tel: 042-3571-8890
+Milk Bread Large 1L x2 X1 560 220 _ 00 00
+Eggs Dozen X1 390 . 00
+Basmati Rice Skg X1 1850 , 00
+Tea 950g X1 1499.00
+4519 00
+SUBTOTAL
+813. 42
+GST 18% 5332 . 42
+TOTAL
+6000 . 00
+CASH 667 58
+CHANGE
+Thank you for shoppingl
+
+--- CORRECT TEXT (ground truth) ---
+AL-FATAH SUPER STORE
+Mall Road, Lahore
+Tel: 042-3571-8890
+Milk 1L          x2      560.00
+Bread Large      x1      220.00
+Eggs Dozen       x1      390.00
+Basmati Rice 5kg x1     1850.00
+Tea 950g         x1     1499.00
+SUBTOTAL                4519.00
+GST 18%                  813.42
+TOTAL                   5332.42
+CASH                    6000.00
+CHANGE                   667.58
+Thank you for shopping!

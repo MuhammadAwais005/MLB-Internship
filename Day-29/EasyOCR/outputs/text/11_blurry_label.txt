@@ -1,0 +1,32 @@
+IMAGE: 11_blurry_label.jpg
+============================================================
+
+--- ORIGINAL ---
+ORGANIC GREEN TEA
+Net WL 2500
+Best Belore: 03/2028
+Made in Pakistan
+
+--- GRAYSCALE ---
+ORGANIC GREEN TEA
+Net WL 2500
+Best Belore: 03/2028
+Made in Pakistan
+
+--- ENHANCED ---
+ORGANIC GREEN TEA
+Net WL 2509
+Best Before: 03/2028
+Made in Pakistan
+
+--- BINARIZED ---
+ORGANIC GREEN TEA
+Net WL 2509
+Best Belorc: 03/2028
+Made In Pakislan
+
+--- CORRECT TEXT (ground truth) ---
+ORGANIC GREEN TEA
+Net Wt. 250g
+Best Before: 03/2028
+Made in Pakistan

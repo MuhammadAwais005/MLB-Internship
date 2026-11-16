@@ -1,0 +1,52 @@
+IMAGE: 02_printed_document_shadow.jpg
+============================================================
+
+--- ORIGINAL ---
+NOTICE FOR ALL STAFF
+The office will remain closed on Friday
+due t0 scheduled electrical maintenance
+Allservers will be shut down at 6 PM;
+Please save your work and log out
+before leaving on Thursday evening:
+For any queries contact the IT desk
+al extension 214.
+
+--- GRAYSCALE ---
+NOTICE FOR ALL STAFF
+The office will remain closed on Friday
+dueto scheduled electrical maintenance 
+Allservers will be shut down at 6 PM;
+Please save your work and log out
+before leaving on Thursday evening:
+For any queries contact the IT desk
+alextension 214.
+
+--- ENHANCED ---
+NOTICE FOR ALL STAFF
+The office will remain closed on Friday
+due to scheduled electrical maintenance
+All servers Will be shut down at 6 PM
+Please save your work and log out
+before leaving on Thursday evening:
+For any queries contact the IT desk
+at extension 214.
+
+--- BINARIZED ---
+NOTICE FOR ALL STAFF
+The office will remain closed on Friday
+due to scheduled electrical maintenance.
+AIl servers will be shut down at 6 PM:
+Please save your work and log out
+before leaving on Thursday evening:
+For any queries contact the IT desk
+at extension 214.
+
+--- CORRECT TEXT (ground truth) ---
+NOTICE FOR ALL STAFF
+The office will remain closed on Friday
+due to scheduled electrical maintenance.
+All servers will be shut down at 6 PM.
+Please save your work and log out
+before leaving on Thursday evening.
+For any queries contact the IT desk
+at extension 214.
