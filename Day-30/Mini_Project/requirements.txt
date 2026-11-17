@@ -1,0 +1,12 @@
+# Document & Object Segmentation Tool
+# Install with:  py -3.11 -m pip install -r requirements.txt
+# Used locally and by Streamlit Community Cloud.
+#
+# Tested on Python 3.11.9 with:
+#   opencv-python-headless 5.0.0.93, numpy 2.4.6, pillow 13.0.0, streamlit 1.67.0
+# No PyTorch / deep learning needed - pure OpenCV thresholding.
+
+opencv-python-headless>=4.10
+numpy>=1.26,<3
+pillow>=10.1
+streamlit>=1.46

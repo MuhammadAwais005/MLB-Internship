@@ -1,0 +1,13 @@
+image,method,threshold,white_%,black_%,dark_blobs,time_ms,otsu_separability
+01_document_uneven_light.png,binary,127.0,77.9,22.1,99,27.26,0.752
+01_document_uneven_light.png,adaptive,13,87.4,12.6,222,64.55,0.752
+01_document_uneven_light.png,otsu,168.0,53.7,46.3,54,25.13,0.752
+02_receipt_shadow.jpg,binary,127.0,90.9,9.1,233,0.31,0.591
+02_receipt_shadow.jpg,adaptive,47,92.2,7.8,211,8.4,0.591
+02_receipt_shadow.jpg,otsu,144.0,84.7,15.3,204,0.67,0.591
+03_coins.png,binary,127.0,30.4,69.6,39,0.37,0.771
+03_coins.png,adaptive,21,83.1,16.9,165,1.24,0.771
+03_coins.png,otsu,104.0,41.3,58.7,17,0.14,0.771
+04_cameraman.png,binary,127.0,65.5,34.5,40,0.13,0.86
+04_cameraman.png,adaptive,35,88.7,11.3,331,2.81,0.86
+04_cameraman.png,otsu,102.0,68.2,31.8,17,0.28,0.86
