@@ -1,0 +1,6 @@
+name,change,epochs,imgsz,batch,augmentation,precision,recall,mAP50,mAP50-95,best_epoch,min_per_epoch
+A_baseline,"baseline (416 px, batch 16, default augmentation)",10,416,16,"default, no mosaic",0.9386,0.8805,0.9503,0.7115,10,1.86
+B_imgsz320,image size 320,10,320,16,"default, no mosaic",0.9295,0.8814,0.9403,0.6939,10,0.97
+C_imgsz512,image size 512,10,512,16,"default, no mosaic",0.934,0.902,0.9566,0.7098,10,2.79
+D_batch8,batch size 8,10,416,8,"default, no mosaic",0.9379,0.8714,0.9424,0.6965,10,1.61
+E_no_aug,no data augmentation,10,416,16,off,0.9258,0.876,0.9318,0.7087,10,1.79

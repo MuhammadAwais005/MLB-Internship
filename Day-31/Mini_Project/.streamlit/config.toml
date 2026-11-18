@@ -1,0 +1,9 @@
+[server]
+maxUploadSize = 200        # MB - room for short phone videos
+
+[client]
+toolbarMode = "minimal"    # hide developer options for visitors
+
+[theme]
+primaryColor = "#F28C28"   # safety orange
+base = "light"

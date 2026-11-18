@@ -1,0 +1,11 @@
+# Packages for the Streamlit app - this is the file Streamlit Community Cloud installs.
+# The app runs the model with ONNX Runtime, so PyTorch / Ultralytics are NOT needed here
+# (that keeps the cloud build small and the start-up fast).
+# Tested with Python 3.11.9: streamlit 1.67, onnxruntime 1.32, opencv-python-headless 5.0,
+# numpy 2.4, pandas 3.1, imageio-ffmpeg 0.8.
+streamlit>=1.50,<2
+onnxruntime>=1.20
+opencv-python-headless>=4.10
+numpy>=1.26,<3
+pandas>=2.0
+imageio-ffmpeg>=0.5

@@ -1,0 +1,18 @@
+{
+  "images": 78,
+  "distinct_photos": 73,
+  "detections": 334,
+  "per_class": {
+    "vest": 88,
+    "person": 70,
+    "boots": 115,
+    "helmet": 61
+  },
+  "mean_confidence": 0.809,
+  "workers": 70,
+  "workers_fully_equipped": 43,
+  "ms_per_image": 47.9,
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "model": "ppe_yolo11n.onnx"
+}

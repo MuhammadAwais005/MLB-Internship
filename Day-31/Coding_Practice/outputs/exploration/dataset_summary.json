@@ -1,0 +1,86 @@
+{
+  "train": {
+    "images": 551,
+    "labels": 551,
+    "boxes": 2558,
+    "boxes_per_image_mean": 4.64,
+    "boxes_per_image_max": 32,
+    "per_class": {
+      "helmet": 509,
+      "boots": 832,
+      "person": 528,
+      "vest": 689
+    },
+    "missing_labels": 0,
+    "empty_labels": 0,
+    "bad_lines": 0,
+    "duplicate_boxes": 1,
+    "image_sizes_sampled": {
+      "640x640": 43
+    }
+  },
+  "valid": {
+    "images": 157,
+    "labels": 157,
+    "boxes": 686,
+    "boxes_per_image_mean": 4.37,
+    "boxes_per_image_max": 20,
+    "per_class": {
+      "helmet": 122,
+      "boots": 216,
+      "person": 143,
+      "vest": 205
+    },
+    "missing_labels": 0,
+    "empty_labels": 0,
+    "bad_lines": 0,
+    "duplicate_boxes": 0,
+    "image_sizes_sampled": {
+      "640x640": 53
+    }
+  },
+  "test": {
+    "images": 78,
+    "labels": 78,
+    "boxes": 321,
+    "boxes_per_image_mean": 4.12,
+    "boxes_per_image_max": 11,
+    "per_class": {
+      "helmet": 58,
+      "boots": 112,
+      "person": 65,
+      "vest": 86
+    },
+    "missing_labels": 0,
+    "empty_labels": 0,
+    "bad_lines": 0,
+    "duplicate_boxes": 1,
+    "image_sizes_sampled": {
+      "640x640": 78
+    }
+  },
+  "object_size_px": {
+    "helmet": {
+      "median": 61.5,
+      "small_pct": 9.7
+    },
+    "boots": {
+      "median": 53.2,
+      "small_pct": 7.3
+    },
+    "person": {
+      "median": 321.2,
+      "small_pct": 0.3
+    },
+    "vest": {
+      "median": 147.1,
+      "small_pct": 1.8
+    }
+  },
+  "leakage": {
+    "test_in_train": 40,
+    "test_originals": 73,
+    "valid_in_train": 57,
+    "valid_originals": 145
+  }
+}

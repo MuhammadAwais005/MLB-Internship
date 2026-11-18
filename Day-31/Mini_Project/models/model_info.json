@@ -1,0 +1,44 @@
+{
+  "model": "YOLO11n fine-tuned from COCO weights",
+  "dataset": "Roboflow Universe anjrh81/ppe-asmsk v2 (CC BY 4.0)",
+  "classes": [
+    "helmet",
+    "boots",
+    "person",
+    "vest"
+  ],
+  "training": {
+    "epochs": 40,
+    "imgsz": 512,
+    "batch": 16,
+    "patience": 10,
+    "device": "CPU",
+    "minutes": 125.1
+  },
+  "validation_best": {
+    "epoch": 40,
+    "epochs_run": 40,
+    "precision": 0.9393,
+    "recall": 0.9197,
+    "mAP50": 0.9576,
+    "mAP50-95": 0.7513
+  },
+  "test": {
+    "precision": 0.9749,
+    "recall": 0.9308,
+    "mAP50": 0.9721,
+    "mAP50-95": 0.7762
+  },
+  "clean_test": {
+    "precision": 0.9746,
+    "recall": 0.96,
+    "mAP50": 0.9759,
+    "mAP50-95": 0.7953
+  },
+  "onnx": {
+    "file": "ppe_yolo11n.onnx",
+    "imgsz": 512,
+    "size_mb": 10.6,
+    "check": "74/74 boxes identical to PyTorch"
+  }
+}

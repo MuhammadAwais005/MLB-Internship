@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+# COCO starting weights - downloaded automatically by training/train.py
+yolo11n.pt
+# full training checkpoints (the best one is copied to models/)
+results/**/weights/
+# written automatically by the training scripts (contains a machine-specific path)
+dataset.yaml

@@ -1,0 +1,71 @@
+image,worker,helmet,vest,boots,status,confidence
+00060_jpg.rf.fb5c3742219c0096911e3a7d19becb35.jpg,1,False,True,False,"missing helmet, boots",0.543
+00060_jpg.rf.fb5c3742219c0096911e3a7d19becb35.jpg,2,False,True,True,missing helmet,0.528
+00060_jpg.rf.fb5c3742219c0096911e3a7d19becb35.jpg,3,False,True,False,"missing helmet, boots",0.339
+00060_jpg.rf.fb5c3742219c0096911e3a7d19becb35.jpg,4,False,True,True,missing helmet,0.283
+00060_jpg.rf.fb5c3742219c0096911e3a7d19becb35.jpg,5,False,True,False,"missing helmet, boots",0.263
+20220621_132924_jpg.rf.4571ccd6e349c8068750b4c0df17b393.jpg,1,True,True,True,OK,0.936
+51_JPG_jpg.rf.8c5af3f554fa159dbb35592d9c609bac.jpg,1,True,False,False,"missing vest, boots",0.848
+KakaoTalk_20221018_001219713_15_jpg.rf.c6b28c4d561df59b1242a4347853204e.jpg,1,True,True,True,OK,0.884
+KakaoTalk_20221018_001425789_06_jpg.rf.bc97f3295d7cbb42bb1f5fb08234c30c.jpg,1,True,True,True,OK,0.791
+KakaoTalk_20221018_001425789_06_jpg.rf.ffdc21b5ff4ce22ebec9d108d379d779.jpg,1,True,True,True,OK,0.872
+KakaoTalk_20221018_001726988_01_jpg.rf.081f8555adc31fa609b393cac77ab03c.jpg,1,True,True,True,OK,0.548
+Video1_0_jpg.rf.2217d5fd0cafb638d7140e0918712edb.jpg,1,True,True,True,OK,0.924
+Video1_16_jpg.rf.21c8854ea4f22c60b2445ba57af4bb8c.jpg,1,True,True,True,OK,0.933
+Video1_200_jpg.rf.2597a20196d6c48ad0e87a50337c7810.jpg,1,True,True,True,OK,0.957
+Video1_21_jpg.rf.17cfd92806d83676d190b2eca34f3327.jpg,1,True,True,True,OK,0.957
+Video1_229_jpg.rf.e28d9fccd204d6f59f5ac314eff78839.jpg,1,True,True,True,OK,0.95
+Video1_33_jpg.rf.7bdb4dd623de2f0ea9cb709db9591d47.jpg,1,True,True,True,OK,0.964
+Video1_3_jpg.rf.68450abb542ca5ce08b35e30a8f92607.jpg,1,True,True,True,OK,0.927
+Video1_44_jpg.rf.bd4f11c33960b92e40e9427d8af3d8f5.jpg,1,True,True,True,OK,0.908
+Video1_49_jpg.rf.480a1128251c4e874e97b6f8671ebea3.jpg,1,True,True,True,OK,0.957
+Video2_0_jpg.rf.07ca00384ca2e1112ebad460161e39d2.jpg,1,True,True,True,OK,0.921
+Video2_167_jpg.rf.241956a4364795cbaa2eec61fb4c0f9b.jpg,1,True,True,True,OK,0.908
+Video2_19_jpg.rf.02f219cd46c0a0058cad376aac1c6ee2.jpg,1,True,True,True,OK,0.91
+Video2_21_jpg.rf.b6c373acf0faf2bbb39f6fb534616194.jpg,1,True,True,True,OK,0.911
+Video2_4_jpg.rf.65e86800b69f8c83719a59325847493e.jpg,1,True,True,True,OK,0.91
+Video3_133_jpg.rf.9400991ceabfe1cd406457860d11af1c.jpg,1,True,True,True,OK,0.916
+Video3_231_jpg.rf.8b1aca30c85a69fbc88333a586f249e8.jpg,1,True,True,True,OK,0.89
+Video3_29_jpg.rf.215e39a2ad51bde74483c3d2a4f64b6b.jpg,1,True,True,True,OK,0.961
+Video4_11_jpg.rf.28ac937b2493947aad1fbaa79cc4b6ce.jpg,1,True,True,True,OK,0.924
+Video4_34_jpg.rf.1cd7df2a37c2694a8d0e93772e5a8e97.jpg,1,True,True,True,OK,0.93
+Video4_49_jpg.rf.30b7fdbb6aaec021b8c9b15a62082a5c.jpg,1,True,True,True,OK,0.96
+Video4_82_jpg.rf.a647747aa2b2c57ea4f404155ddab6bc.jpg,1,True,True,True,OK,0.962
+download-27-_jpg.rf.f4ce4805d2166972369bf3482a828da8.jpg,1,True,True,False,missing boots,0.88
+download-3-_jpeg_jpg.rf.f60b1860615afb6cffc899126f274265.jpg,1,True,False,True,missing vest,0.873
+image_150_jpg.rf.3426ad87a8d1236ad10fa9f5d562002b.jpg,1,True,True,True,OK,0.816
+image_150_jpg.rf.a56c9c11dd13ef60da06b3d056026355.jpg,1,True,True,True,OK,0.878
+image_154_jpg.rf.d595a6c95c848b3f0d5a51eb3b904ec5.jpg,1,True,True,True,OK,0.92
+image_155_jpg.rf.b5f782a76684a77a38b7d1669ae5eccb.jpg,1,True,True,True,OK,0.948
+image_165_jpg.rf.e6b4af787dc541d1de89ae34ae67de91.jpg,1,True,True,True,OK,0.853
+image_170_jpg.rf.a605107d019e5bfb0381f78f02ff44e9.jpg,1,False,False,True,"missing helmet, vest",0.946
+image_170_jpg.rf.a605107d019e5bfb0381f78f02ff44e9.jpg,2,True,True,True,OK,0.855
+image_179_jpg.rf.3d4345ce255968ea13540536e4019668.jpg,1,False,True,True,missing helmet,0.838
+image_185_jpg.rf.89501b4117a4555d11ec2f114a8d6e9a.jpg,1,True,True,True,OK,0.422
+image_186_jpg.rf.ca7d301c6187be5bc24d38524def06ff.jpg,1,True,True,True,OK,0.907
+image_189_jpg.rf.a4423181f398857f98aedfa904e44b16.jpg,1,True,True,True,OK,0.909
+image_190_jpg.rf.0595f7e6380133e18a0cba18aec02eed.jpg,1,True,True,True,OK,0.845
+image_191_jpg.rf.9157442ff988634a3a984d6ae19e11a6.jpg,1,True,True,True,OK,0.86
+image_193_jpg.rf.75a1f283d1c8a614f59b890624cd9d46.jpg,1,True,True,True,OK,0.951
+image_193_jpg.rf.b0a2bb228e2910094a66546191a0e4eb.jpg,1,False,True,True,missing helmet,0.865
+image_199_jpg.rf.fa10e9bac4b3a4b69c27c118c5f1baca.jpg,1,True,True,True,OK,0.86
+image_203_jpg.rf.f29e6579339e0202e35f234fc70531d9.jpg,1,False,True,True,missing helmet,0.96
+image_212_jpg.rf.5c6e7c6a99d77963e2afc02c48efb54d.jpg,1,False,True,True,missing helmet,0.953
+image_215_jpg.rf.adab466227ab288849a62ffbcefbac3e.jpg,1,False,True,True,missing helmet,0.956
+image_217_jpg.rf.858323e5464a1b6fe59f20c3e54cafa5.jpg,1,False,True,True,missing helmet,0.939
+image_225_jpg.rf.d5ba36b38aa30fe5a53ab4a16f36022c.jpg,1,True,True,True,OK,0.9
+image_226_jpg.rf.c087023e84d05e4b53ca149b386e9e8e.jpg,1,False,True,True,missing helmet,0.886
+image_226_jpg.rf.ebd2bd35f1943088107aaa5ffc91e5cc.jpg,1,False,True,True,missing helmet,0.786
+image_230_jpg.rf.d87259faf1c587cc1bce44496022ab45.jpg,1,True,True,True,OK,0.951
+image_243_jpg.rf.3d257b7d7057a2fe799256031001d797.jpg,1,True,True,True,OK,0.887
+image_244_jpg.rf.e481c8ae658fc2cf35e4715e726111a6.jpg,1,False,True,True,missing helmet,0.839
+image_253_jpg.rf.dff94c4d5de5b4457c8267352d59c6ee.jpg,1,False,True,True,missing helmet,0.927
+image_254_jpg.rf.54b04b894df183599e879b66c1e8c287.jpg,1,False,True,True,missing helmet,0.944
+image_255_jpg.rf.b69262ca6c0e320681874cd17144c4ea.jpg,1,False,True,True,missing helmet,0.936
+image_264_jpg.rf.e115bc17d799963d5c102eba024e1480.jpg,1,False,True,True,missing helmet,0.866
+image_62_jpg.rf.cb2bb814f56e83b06aecddf6d74b519b.jpg,1,True,True,True,OK,0.257
+images-50-_jpg.rf.12626d0cec8987f1a4c5582b605d8b91.jpg,1,False,False,True,"missing helmet, vest",0.582
+images49_jpg.rf.b806467b0a4c2896cdd94f3f96ebee16.jpg,1,True,True,False,missing boots,0.888
+ppe_0352_jpg.rf.3abbec9a038cd021e3b3adf18a63d831.jpg,1,True,False,False,"missing vest, boots",0.645
+r110_jpg.rf.373c8422512b10dc240bb825dfeb45de.jpg,1,False,True,False,"missing helmet, boots",0.96
+thumb2443_jpg.rf.3c5453c9f2f9daaf6ec256db8e5b53fb.jpg,1,True,True,False,missing boots,0.518
