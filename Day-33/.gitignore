@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated application results
+**/output/
+**/outputs/
+**/raw_*.mp4
+**/processed_image_*.jpg
+**/processed_video_*.mp4
+
+# Temporary and uploaded files
+*.tmp
+*.temp
+streamlit_uploads/
+
+
+sample_videos/
+input/*.mp4

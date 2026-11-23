@@ -1,0 +1,6 @@
+streamlit
+ultralytics
+opencv-python-headless
+numpy<2.0
+Pillow
+imageio-ffmpeg
