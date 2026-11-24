@@ -1,0 +1,460 @@
+{
+  "info": {
+    "name": "Day-34 Student Management REST API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ],
+  "item": [
+    {
+      "name": "General",
+      "item": [
+        {
+          "name": "Welcome",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": []
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Health check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/health",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "health"
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "Add",
+      "item": [
+        {
+          "name": "Add student",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students"
+              ]
+            },
+            "description": "201",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Ali Raza\",\n  \"age\": 22,\n  \"email\": \"ali.raza@example.com\",\n  \"course\": \"Machine Learning\",\n  \"gpa\": 3.4\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Add student - validation error",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students"
+              ]
+            },
+            "description": "422",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"A\",\n  \"age\": 10,\n  \"email\": \"bad\",\n  \"course\": \"AI\",\n  \"gpa\": 5\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Add student - duplicate email",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students"
+              ]
+            },
+            "description": "409",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Ali Raza\",\n  \"age\": 22,\n  \"email\": \"awais@example.com\",\n  \"course\": \"Machine Learning\",\n  \"gpa\": 3.4\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "View",
+      "item": [
+        {
+          "name": "View all students",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students"
+              ]
+            },
+            "description": "200"
+          }
+        },
+        {
+          "name": "View student by id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "1"
+              ]
+            },
+            "description": "200"
+          }
+        },
+        {
+          "name": "View student - not found",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/999",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "999"
+              ]
+            },
+            "description": "404"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Search",
+      "item": [
+        {
+          "name": "Search by name",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/search?name=ayesha",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "search"
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "ayesha"
+                }
+              ]
+            },
+            "description": "200"
+          }
+        },
+        {
+          "name": "Search by course and age",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/search?course=data&min_age=20&max_age=25",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "search"
+              ],
+              "query": [
+                {
+                  "key": "course",
+                  "value": "data"
+                },
+                {
+                  "key": "min_age",
+                  "value": "20"
+                },
+                {
+                  "key": "max_age",
+                  "value": "25"
+                }
+              ]
+            },
+            "description": "200"
+          }
+        },
+        {
+          "name": "Search - no parameters",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/search",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "search"
+              ]
+            },
+            "description": "400"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Update",
+      "item": [
+        {
+          "name": "Partial update (PATCH)",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "1"
+              ]
+            },
+            "description": "200",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"course\": \"Deep Learning\",\n  \"gpa\": 3.9\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Full update (PUT)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students/2",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "2"
+              ]
+            },
+            "description": "200",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Ayesha Khan\",\n  \"age\": 22,\n  \"email\": \"ayesha.k@example.com\",\n  \"course\": \"Big Data\",\n  \"gpa\": 3.7\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Update - invalid data",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "1"
+              ]
+            },
+            "description": "422",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"age\": 100\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Update - not found",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/students/999",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "999"
+              ]
+            },
+            "description": "404",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"age\": 25\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Delete",
+      "item": [
+        {
+          "name": "Delete student",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/3",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "3"
+              ]
+            },
+            "description": "200"
+          }
+        },
+        {
+          "name": "Delete - not found",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/students/999",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "students",
+                "999"
+              ]
+            },
+            "description": "404"
+          }
+        }
+      ]
+    }
+  ]
+}

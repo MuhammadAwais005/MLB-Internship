@@ -1,0 +1,210 @@
+{
+  "info": {
+    "name": "Day-34 Student API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Welcome message",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": []
+        },
+        "description": "Expect 200"
+      }
+    },
+    {
+      "name": "Health check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "health"
+          ]
+        },
+        "description": "Expect 200, status = healthy"
+      }
+    },
+    {
+      "name": "Get all students",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/students",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students"
+          ]
+        },
+        "description": "Expect 200, list of students"
+      }
+    },
+    {
+      "name": "Add student (valid)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/students",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students"
+          ]
+        },
+        "description": "Expect 201 with new id",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Ali Raza\",\n  \"age\": 22,\n  \"email\": \"ali.raza@example.com\",\n  \"course\": \"Machine Learning\",\n  \"gpa\": 3.4\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Add student (invalid - validation error)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/students",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students"
+          ]
+        },
+        "description": "Expect 422 with Pydantic error details",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"A\",\n  \"age\": 10,\n  \"email\": \"not-an-email\",\n  \"course\": \"AI\",\n  \"gpa\": 5\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Add student (duplicate email)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/students",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students"
+          ]
+        },
+        "description": "Expect 409",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Copy Cat\",\n  \"age\": 25,\n  \"email\": \"awais@example.com\",\n  \"course\": \"AI\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Get student by id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/students/1",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students",
+            "1"
+          ]
+        },
+        "description": "Expect 200"
+      }
+    },
+    {
+      "name": "Get student (not found)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/students/9999",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students",
+            "9999"
+          ]
+        },
+        "description": "Expect 404"
+      }
+    },
+    {
+      "name": "Get student (invalid id)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/students/0",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "students",
+            "0"
+          ]
+        },
+        "description": "Expect 422"
+      }
+    }
+  ]
+}
