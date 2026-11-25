@@ -1,0 +1,206 @@
+{
+  "info": {
+    "name": "Day-35 YOLO PPE Inference API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "health"
+          ]
+        },
+        "description": "200: API running, model_loaded = true"
+      }
+    },
+    {
+      "name": "Predict (JSON)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/predict",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "samples/factory_worker.jpg"
+            }
+          ]
+        },
+        "description": "Choose an image in Body \u2192 form-data \u2192 file. Expect 200 with detections + total."
+      }
+    },
+    {
+      "name": "Predict with confidence 0.5",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/predict?conf=0.5",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict"
+          ],
+          "query": [
+            {
+              "key": "conf",
+              "value": "0.5"
+            }
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "samples/factory_worker.jpg"
+            }
+          ]
+        },
+        "description": "Only detections with confidence >= 0.5"
+      }
+    },
+    {
+      "name": "Predict (annotated image)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/predict/image",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict",
+            "image"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "samples/factory_worker.jpg"
+            }
+          ]
+        },
+        "description": "Returns a JPEG with boxes drawn. Header X-Total-Detections has the count."
+      }
+    },
+    {
+      "name": "Invalid - text instead of file",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/predict",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "text",
+              "value": "hello"
+            }
+          ]
+        },
+        "description": "Expect 422: file sent as text"
+      }
+    },
+    {
+      "name": "Invalid - wrong file type",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/predict",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict"
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "README.md"
+            }
+          ]
+        },
+        "description": "Select a .txt or .pdf file. Expect 415"
+      }
+    },
+    {
+      "name": "Invalid - confidence out of range",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/predict?conf=2",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "predict"
+          ],
+          "query": [
+            {
+              "key": "conf",
+              "value": "2"
+            }
+          ]
+        },
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "src": "samples/factory_worker.jpg"
+            }
+          ]
+        },
+        "description": "Expect 422"
+      }
+    }
+  ]
+}

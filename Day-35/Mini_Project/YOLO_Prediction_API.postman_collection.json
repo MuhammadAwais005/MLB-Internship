@@ -1,0 +1,533 @@
+{
+  "info": {
+    "name": "Day-35 Custom YOLO Prediction API",
+    "description": "After importing, re-select files under Body > form-data > file (Postman stores file paths per computer).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000"
+    }
+  ],
+  "item": [
+    {
+      "name": "0. Health",
+      "item": [
+        {
+          "name": "Health check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/health",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "health"
+              ]
+            },
+            "description": "Expect 200, model_loaded = true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "1. Valid image",
+      "item": [
+        {
+          "name": "Valid image - JSON",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/rooftop_red_vest.jpg"
+                }
+              ]
+            },
+            "description": "Expect 200 with 5 detections (person, helmet, vest, 2 boots)"
+          }
+        },
+        {
+          "name": "Valid image - processed image",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict/image",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict",
+                "image"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/rooftop_red_vest.jpg"
+                }
+              ]
+            },
+            "description": "Expect 200 image/jpeg with boxes; header X-Detection-Count"
+          }
+        },
+        {
+          "name": "Valid image - only boots",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?classes=boots",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "classes",
+                  "value": "boots"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/rooftop_red_vest.jpg"
+                }
+              ]
+            },
+            "description": "Class filter: expect only boots"
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Unsupported file type",
+      "item": [
+        {
+          "name": "Text file",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/test_files/not_an_image.txt"
+                }
+              ]
+            },
+            "description": "Expect 415"
+          }
+        },
+        {
+          "name": "Fake .jpg (text renamed)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/test_files/fake_image.jpg"
+                }
+              ]
+            },
+            "description": "Expect 400: cannot be read as an image"
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Empty file",
+      "item": [
+        {
+          "name": "Empty file",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/test_files/empty.jpg"
+                }
+              ]
+            },
+            "description": "Expect 400: The uploaded file is empty"
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. No detected objects",
+      "item": [
+        {
+          "name": "Image with no objects",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/no_objects.jpg"
+                }
+              ]
+            },
+            "description": "Expect 200, count = 0, message 'No objects detected...'"
+          }
+        },
+        {
+          "name": "No objects - processed image",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict/image",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict",
+                "image"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/no_objects.jpg"
+                }
+              ]
+            },
+            "description": "Expect 200 image with 'Detections: 0'"
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Confidence thresholds",
+      "item": [
+        {
+          "name": "conf = 0.1",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?conf=0.1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "conf",
+                  "value": "0.1"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/group_handover.jpg"
+                }
+              ]
+            },
+            "description": "Compare counts: higher conf -> fewer detections"
+          }
+        },
+        {
+          "name": "conf = 0.25",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?conf=0.25",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "conf",
+                  "value": "0.25"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/group_handover.jpg"
+                }
+              ]
+            },
+            "description": "Compare counts: higher conf -> fewer detections"
+          }
+        },
+        {
+          "name": "conf = 0.5",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?conf=0.5",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "conf",
+                  "value": "0.5"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/group_handover.jpg"
+                }
+              ]
+            },
+            "description": "Compare counts: higher conf -> fewer detections"
+          }
+        },
+        {
+          "name": "conf = 0.9",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?conf=0.9",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "conf",
+                  "value": "0.9"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/group_handover.jpg"
+                }
+              ]
+            },
+            "description": "Compare counts: higher conf -> fewer detections"
+          }
+        },
+        {
+          "name": "conf = 2 (invalid)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?conf=2",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "conf",
+                  "value": "2"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/group_handover.jpg"
+                }
+              ]
+            },
+            "description": "Expect 422"
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. Other errors",
+      "item": [
+        {
+          "name": "No file",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "description": "Expect 422: no image was uploaded"
+          }
+        },
+        {
+          "name": "File sent as text",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "text",
+                  "value": "hello"
+                }
+              ]
+            },
+            "description": "Expect 422: must be an uploaded file"
+          }
+        },
+        {
+          "name": "Unknown class",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/predict?classes=car",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "predict"
+              ],
+              "query": [
+                {
+                  "key": "classes",
+                  "value": "car"
+                }
+              ]
+            },
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "src": "samples/factory_worker.jpg"
+                }
+              ]
+            },
+            "description": "Expect 400 Unknown class"
+          }
+        }
+      ]
+    }
+  ]
+}
